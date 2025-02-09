@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    
+        font-family: "Young Serif", serif;
+        }
+ 
+        .container{
+            padding: 50px;
+        }
+        .section-one{
+            background-color: rgb(3, 3, 3);
+            color:whitesmoke;
+            padding: 20px;
+        } 
+        .section-one__contact{
+            background-color:rgb(233, 115, 11);
+            color: aliceblue;
+            text-decoration: none;
+            
+            padding: 2px;
+            border-radius: 5px;
+            margin: 10px;
+        }
+        .section-one__name{
+            font-size: 50px;
+            font-style: italic;
+            font-weight: 300;
+            
+        }
+        .section-one__role{
+            font-style: italic;
+            font-size: 25px;
+            margin: 10px;
+        }
+        .section-two,.section-three,.section-four,.section-five{
+            margin: 20px;
+        }
+        .section-five{
+            background-color: black;
+            color: whitesmoke;
+            padding: 20px;
+        }
+        .section-five__link{
+            color: steelblue;
+            font-size: medium;
+        }
+        .section-three li,.section-four li{
+            list-style: none;
+        }
+        .section-three{
+            background-color: #6462fd;
+            color: black;
+            padding: 20px;
+            display: inline-block;
+            height: 150px;
+            border-radius: 10px;
+        }
+        .section-four{
+            background-color: darkorange;
+            padding: 20px;
+            display: inline-block;
+            border-radius: 10px;
+        }
+        .contact-form{
+            margin: 20px;
+        }
+        .contact-form__input,.contact-form__textarea,.contact-form__submit{
+            margin-top: 20px;
+        }
+        .contact-form__input{
+            padding: 10px;
+            border: none;
+            border-bottom: solid black;
+
+        }
+        .contact-form__textarea{
+            padding: 10px;
+            border: none;
+            border-bottom: solid black 1px;
+            
+        }
+        .contact-form__submit{
+            padding: 10px;
+            background: chocolate;
+        }
